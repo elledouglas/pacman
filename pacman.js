@@ -93,8 +93,15 @@ function eatGhost(ghost) {
    console.log('\nChomp');
    lives -= 1
  }
+}
+function gameOver(){
+if (lives === 0){
+  funtion(process.exit())
 
 }
+}
+
+
 
 
 // Process Player's Input
